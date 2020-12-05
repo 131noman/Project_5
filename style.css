@@ -1,0 +1,844 @@
+@font-face {
+    src: url("fonts/Jersey_M54/Jersey_M54.TTF");
+    font-family: JerseyM54;
+}
+
+@font-face {
+    src: url("fonts/Roadgeek_2000_Series_F/Roadgeek_2000_Series_F.TTF");
+    font-family: Roadgeek2000SeriesF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+/* Top - Row */
+.top-row{
+    background-color:#f1f2f3;
+    height: 120px;
+}
+
+
+.scoreboard {
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+    flex-wrap: wrap;
+   margin-top: 0;
+    position: relative;
+    top: 15px;
+
+}
+select{
+    border-radius: 50px;
+    background-color: transparent;
+    width: 130px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.score-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 128px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-right: 2px solid #00000030;
+}
+.score-box h4 {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.score-box .logo {
+    height: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.score-box .logo img {
+    height: 100%;
+
+}
+.first-box,
+.second-box {
+    display: flex;
+    justify-content: space-between;
+    line-height: 18px;
+}
+.first-box .score,
+.second-box .score {
+    padding-top: 4px;
+    padding-left: 40px;
+}
+
+.score{
+    color: rgb(212, 212, 213);
+    font-weight: 600;
+}
+
+/* navbar */
+
+.navbar{
+    background-color: transparent;
+   position: relative;
+    top: 20px;
+
+}
+a.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+a.navbar-brand:hover{
+    color: white;
+}
+a.nav-link{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(241, 242, 243);
+    font-weight: bold;
+    line-height: 1.514;
+    text-align: center;
+
+
+}
+a.nav-link:hover{
+    color: white;
+}
+
+
+
+
+
+    /* Bg-img */
+
+.bg-img{
+    background-image: url("images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.cart{
+   position: relative;
+    left: 15px;
+    bottom: 5px;
+}
+.Rectangle_1 {
+    background-color: rgb(6, 55, 27);
+    width: 440px;
+    height: 340px;
+  margin-top: 70px;
+
+}
+.Rectangle_1 h6{
+  letter-spacing: 1px;
+    text-align: center;
+    font-family: JerseyM54;
+    color: rgb(241, 242, 243);
+    font-weight: 400;
+
+}
+
+.Rectangle_1 h3{
+    color: white;
+    text-align: center;
+
+}
+
+.Rectangle_1 p{
+    color: white;
+    text-align: center;
+    width: 67%;
+    font-family: JerseyM54;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+.Rectangle_1 a{
+    color: white;
+}
+.Rectangle_1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.arrow{
+   width: 15px;
+    position: relative;
+  left: 10px;
+}
+
+/* Mission to reignite */
+
+.mission p{
+padding-top: 120px;
+    text-transform: uppercase;
+    font-family: JerseyM54;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.mission h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(8, 55, 31);
+    word-spacing: 4px;
+    letter-spacing: 3px;
+
+}
+
+.mission h6{
+
+    line-height: 30px;
+    font-weight: 300;
+    float: left;
+    width: 80%;
+}
+
+/* #86 hunter */
+.man{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box{
+    height: 130px;
+    background-color: white;
+    margin-top: 160px;
+    margin-left: -100px;
+}
+.box h6{
+    line-height: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: "Roadgeek2000SeriesF";
+    color: rgb(0, 0, 0);
+
+
+}
+.btn-more{
+    background-color: rgb(8, 55, 31) !important;
+    color: white;
+    width: 160px;
+    height: 50px;
+    float: right;
+}
+.btn-more a{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.btn-more a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* 3 lines */
+
+.lines{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 80px;
+}
+
+/* Starting line up */
+.line-up h4{
+    color: rgb(8, 55, 31);
+    text-transform: uppercase;
+    font-weight: bold ;
+    letter-spacing: 2px;
+}
+.images{
+    width: 274px;
+    height: 312px;
+}
+.gameday p{
+    font-size: 12px;
+}
+.price{
+    margin-left: 70px;
+    margin-top: 16px;
+}
+.price-2{
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.btn-now{
+    background-color: black !important;
+    color: white;
+    width: 160px;
+    height: 50px;
+}
+.btn-now a{
+    color: white ;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 2px;
+}
+
+.btn-now a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* sports */
+.sports{
+    background-image: url("images/ground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 60px;
+}
+
+.Rectangle_2 {
+    background-color: rgb(6, 55, 27);
+    width: 440px;
+    height: 340px;
+
+
+}
+.Rectangle_2 h6{
+    color: white;
+    text-align: center;
+    font-family: JerseyM54;
+    letter-spacing: 1px;
+
+}
+
+.Rectangle_2 h3{
+    color: white;
+    text-align: center;
+
+}
+
+.Rectangle_2 p{
+    color: white;
+    text-align: center;
+    width: 67%;
+    font-family: JerseyM54;
+    letter-spacing: 1px;
+
+}
+.Rectangle_2 a{
+    color: white;
+}
+.Rectangle_2 a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* home court */
+.home-court{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    margin-top: 120px;
+}
+.box-2{
+    height: 130px;
+    background-color: white;
+    margin-top: 280px;
+    margin-left: -100px;
+}
+.box-2 h6{
+    line-height: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-family: Roadgeek2000SeriesF;
+    color:rgb(0, 0, 0) ;
+
+}
+.btn-more{
+    background-color: black !important;
+    color: white;
+    width: 160px;
+    height: 50px;
+    float: right;
+}
+.btn-more a{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+.btn-more a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* gameday */
+
+.day{
+    background-image: url("images/gameday.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    top: 60px;
+}
+
+.Rectangle_3 {
+    background-color: rgb(6, 55, 27);
+    width: 380px;
+    height: 220px;
+
+
+}
+
+.Rectangle_3 h3{
+    color: white;
+    text-align: center;
+
+}
+
+.Rectangle_3 p{
+    color: white;
+    text-align: center;
+    width: 40%;
+    font-family: JerseyM54;
+    opacity: 96%;
+    letter-spacing: 1px;
+
+}
+
+/* footer */
+.footer{
+    background-color:#f1f2f3 !important;
+    margin-top: 50px;
+}
+input{
+    border-bottom: 1px solid rgb(6, 55, 27);
+   border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 340px;
+    background-color: transparent;
+}
+
+
+input::placeholder{
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+a.sign-up{
+    color:black;
+    text-decoration: none;
+   font-weight: 500;
+    position: relative;
+    left: 15px;
+}
+a.sign-up:hover{
+    text-decoration: none;
+    color: black;
+}
+.footer-text h1{
+    font-weight: bold;
+}
+.footer-text .bring{
+    font-size: 10px;
+    letter-spacing: 0px;
+    font-weight: 600;
+}
+.footer-text p{
+    font-weight: 500;
+}
+.footer-links {
+    display: flex;
+   text-transform: uppercase;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.footer-links a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-links a:hover{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+/* responsiveness */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .scoreboard{
+        width: 100%;
+
+    }
+    .top-row{
+        height: 200px;
+    }
+    .footer-links{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .scoreboard{
+        width: 100%;
+
+    }
+    .top-row{
+        height: 230px;
+    }
+    .footer-links{
+        font-size: 12px;
+    }
+    .four{
+        position: relative;
+       left: 13px;
+        top: 18px;
+    }
+    .five{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .six{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .images{
+        width: 220px;
+        height: 250px;
+    }
+    .gameday p{
+        font-size: 9px;
+    }
+    .price{
+        margin-left: 70px;
+        margin-top: 16px;
+    }
+    .price-2{
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .sign-up{
+      margin-right: 80px;
+    }
+    input::placeholder{
+        font-size: 12px;
+    }
+    .footer-links{
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+    .scoreboard{
+        width: 100%;
+
+    }
+    .top-row{
+        height: 330px;
+    }
+    .mission h2{
+        font-size: 25px;
+    }
+    .box{
+        height: 170px;
+    }
+    .lines{
+      position: relative;
+      left: 0px;
+    }
+    .footer-links{
+        font-size: 12px;
+    }
+    .four{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .five{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .six{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .images{
+        width: 274px;
+        height: 312px;
+        margin: 20px;
+       position: relative;
+        left: 100px;
+    }
+    .gameday p{
+        font-size: 9px;
+        margin: 0 auto;
+        width: 150px;
+        position: relative;
+        left: 70px;
+        bottom: 20px;
+    }
+    .price{
+        margin-left: 70px;
+        margin-top: 16px;
+        margin: 0 auto;
+        position: relative;
+        left: 120px;
+    }
+    .price-2{
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .sign-up{
+        margin-right: 80px;
+    }
+    input::placeholder{
+        font-size: 12px;
+    }
+    .footer-links{
+        font-size: 6px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+    .scoreboard{
+        width: 100%;
+
+    }
+    .top-row{
+        height: 350px;
+    }
+    .mission h2{
+        font-size: 25px;
+    }
+    .box{
+        height: 170px;
+    }
+    .lines{
+         position: relative;
+         left: 0px;
+         width: 160px;
+     }
+    .line-2{
+       position: relative;
+        left: 160px;
+        bottom: 36px;
+    }
+    .line-3{
+        position: relative;
+        left: 320px;
+        bottom: 72px;
+    }
+    .footer-links{
+        font-size: 12px;
+    }
+    .four{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .five{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .six{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .images{
+        width: 274px;
+        height: 312px;
+        margin: 20px;
+        position: relative;
+        left: 80px;
+    }
+    .gameday p{
+        font-size: 9px;
+        margin: 0 auto;
+        width: 150px;
+        position: relative;
+        left: 70px;
+        bottom: 20px;
+    }
+    .price{
+        margin-left: 70px;
+        margin-top: 16px;
+        margin: 0 auto;
+        position: relative;
+        left: 120px;
+    }
+    .price-2{
+        margin-left: 20px;
+        margin-top: 16px;
+    }
+    .sign-up{
+        margin-right: 80px;
+    }
+    input::placeholder{
+        font-size: 12px;
+    }
+    .footer-links{
+        font-size: 6px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .scoreboard{
+        width: 100%;
+
+    }
+    .top-row{
+        height: 370px;
+    }
+    .one{
+        position: relative;
+        left: 25px;
+        top: 14px;
+    }
+    .two{
+        position: relative;
+        left: 30px;
+        top: 14px;
+    }
+    .three{
+        position: relative;
+        left: 16px;
+        top: 22px;
+    }
+    .four{
+        position: relative;
+        left: 40px;
+        top: 22px;
+    }
+    .five{
+
+        margin-top: 12px;
+        margin-left: 4px;
+
+    }
+    .six{
+        margin-top: 12px;
+        margin-left: 4px;
+    }
+
+   .navbar-brand img{
+       width: 120px;
+   }
+   .Rectangle_1{
+       width: 320px;
+   }
+    .mission h2{
+        font-size: 18px;
+    }
+    .box{
+        height: 170px;
+    }
+    .lines{
+        position: relative;
+        left: 0px;
+        width: 100px;
+    }
+    .line-2{
+        position: relative;
+        left: 100px;
+        bottom: 36px;
+    }
+    .line-3{
+        position: relative;
+        left: 200px;
+        bottom: 72px;
+    }
+    .footer-links{
+        font-size: 12px;
+    }
+    .four{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .five{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .six{
+        position: relative;
+        left: 13px;
+        top: 18px;
+    }
+    .images{
+        width: 274px;
+        height: 312px;
+        margin: 20px;
+        position: relative;
+        left: 10px;
+    }
+
+    .gameday p{
+        font-size: 9px;
+        margin: 0 auto;
+        width: 150px;
+        position: relative;
+        left: 30px;
+        bottom: 20px;
+    }
+    .price{
+
+        position: relative;
+       padding-left: 60px;
+    }
+    .price-2{
+        margin-left: 20px;
+        margin-top: 16px;
+        padding-left: 60px;
+    }
+    .Rectangle_2{
+        width: 320px;
+    }
+    .box-2{
+        height: 160px;
+    }
+    .Rectangle_3{
+        width: 320px;
+        height:250px;
+    }
+    .Rectangle_3 p{
+        width: 60%;
+    }
+    .sign-up{
+        margin-right: 80px;
+        min-width: 300px !important;
+    }
+    input::placeholder{
+        font-size: 12px;
+    }
+    .footer-links{
+        font-size: 4px;
+    }
+
+}
